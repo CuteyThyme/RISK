@@ -48,11 +48,11 @@ class RSRAutoEncoder(nn.Module):
         super().__init__()
         # Put your encoder network here, remember about the output D-dimension
         self.encoder = nn.Sequential(
-          nn.Linear(input_dim, input_dim // 2),  # (768, 384)
+          nn.Linear(input_dim, input_dim // 2),  
           nn.LeakyReLU(),
-          nn.Linear(input_dim // 2, input_dim // 4),  # (384, 192)
+          nn.Linear(input_dim // 2, input_dim // 4),  
           nn.LeakyReLU(),
-          nn.Linear(input_dim // 4, D) # (192, 128) #? (96)
+          nn.Linear(input_dim // 4, D) 
         )
         self.rsr = RSRLayer(d, D)
 
