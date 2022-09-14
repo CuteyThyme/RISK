@@ -30,7 +30,7 @@ python src/main.py --gpu 0 --dataset mnli --batch_size 16 --epochs 10 --intrinsi
 python src/main.py --gpu 0 --dataset fever --batch_size 16 --epochs 10 --intrinsic_dim 30 --lamda1 0.009 --lamda2 0.009 --reloss --best_model_name fever_model.pth.tar
 
 # QQP
-python src/main.py --gpu 0 --dataset mnli --batch_size 16 --epochs 10 --intrinsic_dim 16 --lamda1 0.025 --lamda2 0.025 --reloss --best_model_name qqp_model.pth.tar
+python src/main.py --gpu 0 --dataset qqp --batch_size 16 --epochs 10 --intrinsic_dim 16 --lamda1 0.025 --lamda2 0.025 --reloss --best_model_name qqp_model.pth.tar
 ```
 
 ## Citation
