@@ -23,7 +23,7 @@ PAWS:  [https://github.com/google-research-datasets/paws](https://github.com/goo
 
 For the convenience, you can download all the training data [here](https://drive.google.com/drive/folders/1aleJytl3SAKdGBsxZbxznwusINOnTAzh?usp=share_link).
 
-We use NVIDIA GeForce RTX 2080 Ti for the experiments. Run the following to get the results in the paper.     
+We conduct all the experiments on NVIDIA GeForce RTX 2080 Ti. Run the following instructions to get the results in the paper.     
 To be noted, considering the training convergence of the autoencoder, the training epochs should be set to 30.
 
 
