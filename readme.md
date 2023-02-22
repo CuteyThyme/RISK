@@ -21,7 +21,7 @@ FEVER-Symmetric: [https://github.com/TalSchuster/FeverSymmetric](https://github.
 QQP:   [https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs](https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs)   
 PAWS:  [https://github.com/google-research-datasets/paws](https://github.com/google-research-datasets/paws)
 
-For the convenience, you can download all the training data [here](https://drive.google.com/drive/folders/1aleJytl3SAKdGBsxZbxznwusINOnTAzh?usp=share_link).
+**For the convenience, you can download all the training data [here](https://drive.google.com/drive/folders/1aleJytl3SAKdGBsxZbxznwusINOnTAzh?usp=share_link).**
 
 We conduct all the experiments on NVIDIA GeForce RTX 2080 Ti. Run the following instructions to get the results in the paper.     
 To be noted, considering the training convergence of the autoencoder, the training epochs should be set to 30.
@@ -43,8 +43,7 @@ The following is the bibtex for citation.
 ```
 @inproceedings{wu-gui-2022-less,
     title = "Less Is Better: Recovering Intended-Feature Subspace to Robustify {NLU} Models",
-    author = "Wu, Ting  and
-      Gui, Tao",
+    author = "Wu, Ting  and Gui, Tao",
     booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
     month = oct,
     year = "2022",
