@@ -1,8 +1,7 @@
 # RISK
-This repo implements the main experiments of COLING 2022 paper:   
-Less is Better: Recovering Intended-Feature Subspace to Robustify NLU Models
+This repo implements the main experiments for the following paper:  [Less is Better: Recovering Intended-Feature Subspace to Robustify NLU Models](https://arxiv.org/pdf/2209.07879.pdf)
 
-## Getting Started 
+## Getting Started
 
 ### Prerequisites:
 - python 3.8.3
